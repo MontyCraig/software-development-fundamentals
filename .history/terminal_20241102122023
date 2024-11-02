@@ -1,0 +1,25 @@
+# Initialize git repository if not already done
+git init
+
+# Add .gitignore and .cursorignore
+git add .gitignore .cursorignore
+
+# Add all markdown files and directories
+git add *.md
+git add */*.md
+git add */*/*.md
+
+# Add all Python files
+git add *.py
+git add */*.py
+git add */*/*.py
+
+# Initial commit
+git commit -m "Initial commit: Software Development Fundamentals project structure and documentation"
+
+# Add GitHub remote (replace with your repository URL)
+git remote add origin https://github.com/yourusername/software-development-fundamentals.git
+
+# Create main branch and push
+git branch -M main
+git push -u origin main

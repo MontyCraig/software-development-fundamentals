@@ -1,0 +1,29 @@
+# 1. Navigate to project directory
+cd "/Volumes/One Touch/Meta Reps Core 2024/Meta Reps AI Software Company Code/Software Development Fundamentals"
+
+# 2. Initialize git repository
+git init
+
+# 3. Add .gitignore
+git add .gitignore
+
+# 4. Add all project files
+git add .
+
+# 5. Create initial commit
+git commit -m "Initial commit: Comprehensive software development fundamentals guide
+- Core programming concepts
+- Data structures and algorithms
+- Development processes
+- Software design principles
+- Testing and QA
+- Tools and technologies
+- Documentation and examples"
+
+# 6. Create GitHub repository
+gh repo create software-development-fundamentals --public --description "A comprehensive guide to software development fundamentals for students"
+
+# 7. Add remote and push with your username
+git remote add origin https://github.com/MontyCraig/software-development-fundamentals.git
+git branch -M main
+git push -u origin main
