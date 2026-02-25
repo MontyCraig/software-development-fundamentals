@@ -61,6 +61,12 @@ caching strategies, horizontal vs. vertical scaling, database sharding and repli
 message queues, CDNs, microservice decomposition, and system design methodology. Includes
 ASCII architecture diagrams for common system patterns.
 
+### 8. [Distributed Systems](distributed_systems.md)
+Fundamental concepts and algorithms for building systems that span multiple machines.
+Covers consensus algorithms (Paxos, Raft), distributed transactions (two-phase commit,
+saga pattern), CRDTs (conflict-free replicated data types), vector clocks, and
+consistency models. Includes ASCII diagrams of protocol exchanges and state transitions.
+
 ---
 
 ## Recommended Reading Order
@@ -75,6 +81,7 @@ conceptual build-up:
 5. **API Design Principles** -- Designing the interfaces that operate over networks.
 6. **Security Fundamentals** -- Securing every layer (memory, concurrency, data, network, API).
 7. **System Design Basics** -- Synthesizes all topics into holistic system architecture.
+8. **Distributed Systems** -- Consensus, replication, and coordination across machines.
 
 Alternatively, if you are preparing for system design discussions, start with topic 7 and
 work backwards into the supporting topics as needed.
@@ -96,3 +103,4 @@ After completing this section, you will be able to:
 - Design clean, consistent APIs that are easy to use and evolve
 - Apply fundamental security practices throughout the development lifecycle
 - Approach system design problems with a structured methodology
+- Understand distributed consensus, replication strategies, and consistency trade-offs
