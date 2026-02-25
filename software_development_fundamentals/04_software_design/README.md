@@ -53,6 +53,12 @@ sequential, communicational, temporal), coupling (data, stamp, control, common, 
 code smells and their refactorings, and metrics for evaluating design health. Includes
 smell-to-refactoring mapping tables.
 
+### 7. [Refactoring Catalog](refactoring_catalog.md)
+A practical catalog of 20+ refactoring techniques with before/after pseudocode organized
+by category. Covers composing methods, moving features between objects, organizing data,
+simplifying conditional expressions, simplifying method calls, and dealing with
+generalization. Each technique includes motivation, mechanics, and worked examples.
+
 ---
 
 ## Recommended Reading Order
@@ -66,6 +72,7 @@ principles:
 4. **YAGNI** -- Completes the trio of pragmatic principles (DRY + KISS + YAGNI).
 5. **Design Patterns** -- Reusable solutions that embody the above principles.
 6. **Design Quality** -- The analytical lens for evaluating whether your design is working.
+7. **Refactoring Catalog** -- Concrete techniques for improving existing code structure.
 
 Alternatively, experienced developers may read Design Quality first to establish a
 vocabulary for evaluating designs, then revisit the principles and patterns with that
@@ -83,4 +90,5 @@ After completing this section, you will be able to:
 - Recognize and eliminate unnecessary duplication, complexity, and speculation
 - Select and implement appropriate design patterns for common problems
 - Evaluate design quality using cohesion, coupling, and code smell analysis
+- Apply a catalog of named refactoring techniques to improve code structure
 - Refactor existing code to improve its structural integrity

@@ -19,7 +19,7 @@ development.
   language. There is no dependency on any specific runtime, framework, or toolchain.
 - **Visual.** Over 60 ASCII diagrams illustrate data structure layouts, algorithm
   execution traces, architectural topologies, and system interactions.
-- **Comprehensive.** 62 topic files organized across 8 sections cover the full breadth
+- **Comprehensive.** 73 topic files organized across 10 sections cover the full breadth
   of software development fundamentals.
 - **Self-contained.** Each file can be read independently, but the sections are ordered
   to build on each other for a structured learning path.
@@ -30,13 +30,13 @@ development.
 
 | Feature                        | Details                                             |
 | ------------------------------ | --------------------------------------------------- |
-| Topic files                    | 62 in-depth references                              |
-| Sections                       | 8 organized by domain                               |
+| Topic files                    | 73 in-depth references                              |
+| Sections                       | 10 organized by domain                              |
 | Architectural patterns         | 18 fully documented patterns                        |
 | Gang of Four design patterns   | 23 patterns cataloged                               |
 | Pseudocode examples            | 100+ implementations across all topics              |
 | ASCII diagrams                 | 60+ structural and trace diagrams                   |
-| Total content                  | 26,000+ lines of technical reference material       |
+| Total content                  | 34,500+ lines of technical reference material       |
 | Language dependencies          | None -- entirely language-agnostic                  |
 
 ---
@@ -89,6 +89,8 @@ implementations, and step-by-step execution traces.
 | 6 | [dynamic_programming.md](03_algorithms/dynamic_programming.md) | Memoization, tabulation, state transitions, space optimization |
 | 7 | [greedy_algorithms.md](03_algorithms/greedy_algorithms.md) | Greedy choice property, Huffman coding, activity selection |
 | 8 | [graph_algorithms.md](03_algorithms/graph_algorithms.md) | BFS, DFS, Dijkstra, Bellman-Ford, Kruskal, Prim, topological sort |
+| 9 | [string_algorithms.md](03_algorithms/string_algorithms.md) | Pattern matching (KMP, Rabin-Karp), trie operations, edit distance, suffix arrays |
+| 10 | [bit_manipulation.md](03_algorithms/bit_manipulation.md) | Binary representation, bitwise operators, common bit tricks, bit masking |
 
 ### [Section 4: Software Design](04_software_design/)
 
@@ -103,6 +105,7 @@ extensible a codebase will be over its lifetime.
 | 4 | [yagni.md](04_software_design/yagni.md) | Avoiding speculative generality and premature abstraction |
 | 5 | [design_patterns.md](04_software_design/design_patterns.md) | All 23 Gang of Four patterns: Creational, Structural, Behavioral |
 | 6 | [design_quality.md](04_software_design/design_quality.md) | Cohesion, coupling, code smells, refactoring techniques |
+| 7 | [refactoring_catalog.md](04_software_design/refactoring_catalog.md) | 20+ refactoring techniques with before/after pseudocode by category |
 
 ### [Section 5: Architectural Patterns](05_architectural_patterns/)
 
@@ -169,6 +172,34 @@ security, and holistic system design.
 | 5 | [api_design_principles.md](08_advanced_topics/api_design_principles.md) | REST design, versioning, pagination, rate limiting |
 | 6 | [security_fundamentals.md](08_advanced_topics/security_fundamentals.md) | CIA triad, OWASP Top Ten, cryptography, secure coding |
 | 7 | [system_design_basics.md](08_advanced_topics/system_design_basics.md) | Scaling, caching, sharding, load balancing, message queues |
+| 8 | [distributed_systems.md](08_advanced_topics/distributed_systems.md) | Consensus algorithms (Paxos, Raft), distributed transactions, CRDTs, vector clocks |
+
+### [Section 9: DevOps](09_devops/)
+
+Practices and disciplines for reliable, repeatable, and observable software delivery,
+from CI/CD pipelines through infrastructure management and operational reliability.
+
+| # | File | Topic |
+|---|------|-------|
+| 1 | [ci_cd_pipelines.md](09_devops/ci_cd_pipelines.md) | Build, test, deploy automation, deployment patterns, rollback procedures |
+| 2 | [containerization.md](09_devops/containerization.md) | Containers vs. VMs, image layering, orchestration, service mesh |
+| 3 | [infrastructure_as_code.md](09_devops/infrastructure_as_code.md) | Declarative infrastructure, state management, drift detection, immutable infrastructure |
+| 4 | [monitoring_and_observability.md](09_devops/monitoring_and_observability.md) | Logs, metrics, traces, alerting strategies, SLI/SLO/SLA definitions |
+| 5 | [site_reliability_engineering.md](09_devops/site_reliability_engineering.md) | Error budgets, toil reduction, incident management, chaos engineering |
+| 6 | [configuration_management.md](09_devops/configuration_management.md) | Feature flags, secrets management, twelve-factor principles, drift reconciliation |
+
+### [Section 10: Professional Practices](10_professional_practices/)
+
+The disciplines, habits, and interpersonal skills that distinguish high-performing
+development teams, from code review through estimation, documentation, and collaboration.
+
+| # | File | Topic |
+|---|------|-------|
+| 1 | [code_review.md](10_professional_practices/code_review.md) | Review processes, giving/receiving feedback, quality standards |
+| 2 | [technical_debt.md](10_professional_practices/technical_debt.md) | Measuring, managing, and paying down accumulated shortcuts |
+| 3 | [estimation_and_planning.md](10_professional_practices/estimation_and_planning.md) | Effort forecasting, uncertainty management, realistic commitments |
+| 4 | [technical_documentation.md](10_professional_practices/technical_documentation.md) | READMEs, API references, architecture decision records |
+| 5 | [communication_and_collaboration.md](10_professional_practices/communication_and_collaboration.md) | Clear writing, productive meetings, knowledge sharing, blameless culture |
 
 ---
 
@@ -201,6 +232,12 @@ Section 7: Testing and QA
     |
     v
 Section 8: Advanced Topics
+    |
+    v
+Section 9: DevOps
+    |
+    v
+Section 10: Professional Practices
 ```
 
 ### Topic-based lookup (experienced developers)
@@ -210,13 +247,13 @@ Cross-references between files are noted where relevant.
 
 ### Interview preparation
 
-Focus on Sections 2-3 (data structures and algorithms) for coding interviews, Section 5
-for system design interviews, and Section 4 for design discussions.
+Focus on Sections 2-3 (data structures and algorithms) for coding interviews, Sections 5
+and 8 for system design interviews, and Section 4 for design discussions.
 
 ### Team onboarding
 
-Sections 4, 6, and 7 (design, process, testing) are particularly valuable for aligning
-new team members on practices and standards.
+Sections 4, 6, 7, and 10 (design, process, testing, professional practices) are
+particularly valuable for aligning new team members on practices and standards.
 
 ---
 
@@ -227,12 +264,14 @@ software_development_fundamentals/
   README.md                          <-- You are here
   01_core_programming/               (6 files + README)
   02_data_structures/                (8 files + README)
-  03_algorithms/                     (8 files + README)
-  04_software_design/                (6 files + README)
+  03_algorithms/                     (10 files + README)
+  04_software_design/                (7 files + README)
   05_architectural_patterns/         (18 files + README)
   06_development_processes/          (3 files + README)
   07_testing_and_qa/                 (6 files + README)
-  08_advanced_topics/                (7 files + README)
+  08_advanced_topics/                (8 files + README)
+  09_devops/                         (6 files + README)
+  10_professional_practices/         (5 files + README)
 ```
 
 ---

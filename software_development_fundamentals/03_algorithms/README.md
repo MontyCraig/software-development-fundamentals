@@ -64,6 +64,16 @@ and topological ordering. Covers BFS, DFS, Dijkstra's algorithm, Bellman-Ford, F
 Kruskal's and Prim's MST algorithms, and topological sort. Includes detailed ASCII
 execution traces.
 
+### 9. [String Algorithms](string_algorithms.md)
+Algorithms for processing and searching text. Covers pattern matching (KMP, Rabin-Karp),
+trie operations, edit distance (Levenshtein), and suffix arrays. Includes pseudocode
+implementations and ASCII trace diagrams for each algorithm.
+
+### 10. [Bit Manipulation](bit_manipulation.md)
+Techniques for operating directly on binary representations of data. Covers binary
+representation, bitwise operators (AND, OR, XOR, NOT, shifts), common bit tricks, and
+bit masking. Includes truth tables and worked examples.
+
 ---
 
 ## Recommended Reading Order
@@ -78,6 +88,8 @@ Start with complexity analysis, then proceed through the topics:
 6. **Dynamic Programming** -- Extends recursion with memoization and tabulation.
 7. **Greedy Algorithms** -- A simpler alternative to DP when greediness can be proven correct.
 8. **Graph Algorithms** -- Synthesizes traversal, shortest-path, and optimization techniques.
+9. **String Algorithms** -- Efficient text processing and pattern matching techniques.
+10. **Bit Manipulation** -- Low-level binary operations and common bit tricks.
 
 ## Prerequisites
 
@@ -92,4 +104,6 @@ After completing this section, you will be able to:
 - Apply recursive thinking and backtracking to constraint problems
 - Recognize when dynamic programming or greedy strategies apply
 - Implement graph traversals and shortest-path algorithms
+- Apply string algorithms for pattern matching and text processing
+- Use bit manipulation techniques for efficient low-level operations
 - Choose the right algorithmic approach for a given problem
