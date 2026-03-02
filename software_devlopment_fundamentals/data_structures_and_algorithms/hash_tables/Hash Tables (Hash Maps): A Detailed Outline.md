@@ -11,57 +11,70 @@
 * **A. Collisions:** When two different keys hash to the same index, a collision occurs.  Explain why collisions are inevitable, especially when the number of keys is much larger than the size of the array.
 * **B. Chaining:**
   * \
-    
+
     1. Separate Chaining: Each array slot contains a linked list (or another data structure) to store multiple key-value pairs that hash to the same index.  Illustrate with a diagram.
+
   * \
-    
+
     2. Advantages: Simple to implement, handles collisions gracefully.
+
   * \
-    
+
     3. Disadvantages: Can lead to longer search times if chains become too long.
+
 * **C. Open Addressing:**
   * \
-    
+
     1. Linear Probing: If a collision occurs, linearly probe the array for the next available slot (index + 1, index + 2, etc.).  Illustrate with a diagram.
+
   * \
-    
+
     2. Quadratic Probing: Probe the array using a quadratic function (index + 1^2, index + 2^2, etc.).  Helps reduce primary clustering (elements clustering around the initial collision point).
+
   * \
-    
+
     3. Double Hashing: Use a second hash function to determine the probe sequence.  Helps reduce both primary and secondary clustering.
+
   * \
-    
+
     4. Advantages: No extra memory overhead for pointers (compared to chaining).
+
   * \
-    
+
     5. Disadvantages: Can suffer from clustering, performance degrades as the table fills up.
 
 **III. Time and Space Complexity Analysis**
 
 * **A. Average Case:**
   * \
-    
+
     1. Insertion: O(1)
+
   * \
-    
+
     2. Deletion: O(1)
+
   * \
-    
+
     3. Search: O(1)
+
   * Explain that these average-case complexities assume a good hash function and a reasonably low load factor (number of elements / table size).
 * **B. Worst-Case Scenarios:**
   * \
-    
+
     1. Poor Hash Function: If the hash function distributes keys unevenly, leading to many collisions, performance can degrade to O(n) for all operations (especially with open addressing).
+
   * \
-    
+
     2. High Load Factor: As the hash table fills up, the probability of collisions increases, leading to longer search times and degraded performance.  With open addressing, a very high load factor can make insertions impossible.
+
 * **C. Mitigating Worst-Case Scenarios:**
   * \
-    
+
     1. Choose a Good Hash Function:  A good hash function distributes keys uniformly across the array, minimizing collisions.  Discuss different hash function strategies.
+
   * \
-    
+
     2. Dynamic Resizing:  When the load factor exceeds a certain threshold, resize the hash table (typically by doubling its size) and rehash all existing elements.  This helps maintain a low load factor and good performance.  Explain the amortized cost of resizing.
 
 **IV. Space Complexity**

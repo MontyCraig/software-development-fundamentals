@@ -55,10 +55,11 @@ Control flow determines the order in which individual statements, instructions, 
 
 ## Best Practices
 
-
 1. Loop Optimization
-2. Condition Simplification
-3. Error Handling
-4. Code Readability
 
+2. Condition Simplification
+
+3. Error Handling
+
+4. Code Readability
 

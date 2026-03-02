@@ -2,4 +2,4 @@
 
 ## Project Structure Overview
 
-This repository is organized as follows: 
+This repository is organized as follows:

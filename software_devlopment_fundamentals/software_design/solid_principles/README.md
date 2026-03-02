@@ -72,4 +72,3 @@ SOLID is an acronym for five design principles that help create maintainable and
 * Integration tests for combined principles
 * Violation detection tests
 
-

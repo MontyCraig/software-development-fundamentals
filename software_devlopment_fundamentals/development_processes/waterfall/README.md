@@ -56,4 +56,3 @@ The Waterfall model is a sequential software development process where progress 
 * Deployment Guides
 * Maintenance Logs
 
-

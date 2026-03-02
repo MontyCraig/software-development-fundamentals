@@ -34,11 +34,14 @@ Software development processes are systematic approaches to building software sy
 
 ## Best Practices
 
-
 1. Documentation
+
 2. Code Reviews
+
 3. Continuous Integration/Deployment
+
 4. Quality Assurance
+
 5. Project Management
 
 ## Implementation Guidelines
@@ -48,5 +51,4 @@ Software development processes are systematic approaches to building software sy
 * Progress Tracking
 * Risk Management
 * Quality Control
-
 

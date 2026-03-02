@@ -68,10 +68,11 @@ System testing evaluates the complete and integrated software system to verify i
 
 ## Best Practices
 
-
 1. Test Environment Management
-2. Test Data Management
-3. Automated Testing
-4. Continuous Monitoring
 
+2. Test Data Management
+
+3. Automated Testing
+
+4. Continuous Monitoring
 

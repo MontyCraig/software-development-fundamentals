@@ -53,4 +53,3 @@ This directory contains implementations of fundamental data structures.
 * Open addressing
 * Hash functions
 
-

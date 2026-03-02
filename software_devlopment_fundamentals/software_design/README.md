@@ -34,4 +34,3 @@ Software design principles guide developers in creating maintainable, flexible, 
 * Code Organization
 * System Boundaries
 
-

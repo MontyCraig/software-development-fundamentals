@@ -68,10 +68,11 @@ Debugging is the process of identifying, analyzing, and removing errors from sof
 
 ## Best Practices
 
-
 1. Systematic Approach
-2. Proper Logging
-3. Version Control Integration
-4. Documentation
 
+2. Proper Logging
+
+3. Version Control Integration
+
+4. Documentation
 

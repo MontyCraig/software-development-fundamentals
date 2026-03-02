@@ -9,66 +9,82 @@
 
 * **A. Bubble Sort:**
   * \
-    
+
     1. Algorithm: Repeatedly compares adjacent elements and swaps them if they are in the wrong order.  Illustrate with a step-by-step example and a diagram.
+
   * \
-    
+
     2. Advantages: Simple to understand and implement.
+
   * \
-    
+
     3. Disadvantages: Very inefficient for large datasets.
+
 * **B. Insertion Sort:**
   * \
-    
+
     1. Algorithm: Builds a sorted portion of the array one element at a time, shifting elements as needed to insert the next element in its correct position.  Illustrate with a step-by-step example and a diagram.
+
   * \
-    
+
     2. Advantages: Efficient for small datasets or nearly sorted data, adaptive (performs better on partially sorted data).
+
   * \
-    
+
     3. Disadvantages: Not efficient for large datasets.
+
 * **C. Selection Sort:**
   * \
-    
+
     1. Algorithm: Repeatedly finds the minimum element from the unsorted part and puts it at the beginning of the sorted part.  Illustrate with a step-by-step example and a diagram.
+
   * \
-    
+
     2. Advantages: Simple to understand.
+
   * \
-    
+
     3. Disadvantages: Not efficient for large datasets, not stable (may change the relative order of equal elements).
 
 **III. Efficient Sorts (O(n log n))**
 
 * **A. Merge Sort:**
   * \
-    
+
     1. Algorithm: Divide and conquer approach. Recursively divides the array into halves, sorts each half, and then merges the sorted halves.  Illustrate with a step-by-step example and a diagram.
+
   * \
-    
+
     2. Advantages: Efficient and stable.
+
   * \
-    
+
     3. Disadvantages: Requires extra space for merging (not in-place).
+
 * **B. Quick Sort:**
   * \
-    
+
     1. Algorithm: Chooses a pivot element, partitions the array around the pivot (elements smaller than the pivot come before it, and elements larger than the pivot come after it), and then recursively sorts the subarrays.  Illustrate with a step-by-step example and a diagram.
+
   * \
-    
+
     2. Advantages: Generally very efficient in practice.
+
   * \
-    
+
     3. Disadvantages: Worst-case performance is O(n^2) if the pivot is chosen poorly (e.g., the smallest or largest element).  Discuss strategies for choosing a good pivot (random pivot, median-of-three).
+
 * **C. Heap Sort:**
   * \
-    
+
     1. Algorithm: Builds a max-heap (or min-heap) from the array, repeatedly extracts the maximum (or minimum) element from the heap, and places it at the end of the sorted array.  Illustrate with a step-by-step example and a diagram.
+
   * \
-    
+
     2. Advantages: Guaranteed O(n log n) time complexity, in-place.
+
   * \
-    
+
     3. Disadvantages: Not stable, not as efficient as quicksort or merge sort in practice (on average).
 
 **IV. Stability in Sorting Algorithms**

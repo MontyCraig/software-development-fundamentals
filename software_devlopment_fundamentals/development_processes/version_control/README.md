@@ -60,4 +60,3 @@ Version control systems track changes to source code and facilitate collaborativ
 * `code_review_guidelines.md`
 * `release_process.md`
 
-

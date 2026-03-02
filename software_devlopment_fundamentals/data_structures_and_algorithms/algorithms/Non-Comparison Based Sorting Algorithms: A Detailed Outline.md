@@ -27,11 +27,13 @@
 * **B. Suitable Data:** Works well when the elements are uniformly distributed over a range.
 * **C. Time Complexity:**
   * \
-    
+
     1. Average Case: O(n)
+
   * \
-    
+
     2. Worst Case: O(n^2) (if all elements fall into the same bucket).
+
 * **D. Space Complexity:** O(n + k), where k is the number of buckets.
 * **E. Stability:** Can be implemented as a stable sort.
 

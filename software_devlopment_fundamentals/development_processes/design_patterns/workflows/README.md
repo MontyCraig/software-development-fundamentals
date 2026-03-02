@@ -2,4 +2,4 @@
 
 ## Creational Pattern Workflows
 
-### Singleton Pattern 
+### Singleton Pattern
