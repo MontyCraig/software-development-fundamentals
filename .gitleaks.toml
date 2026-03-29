@@ -1,0 +1,13 @@
+title = "MontyCraig Secret Scanning Rules"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "MontyCraig Allowlist"
+paths = [
+    '''^\.secrets\.baseline$''',
+    '''^\.env\.example$''',
+    '''^node_modules/.*$''',
+    '''^__pycache__/.*$''',
+]
